@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pd1 .[^.]*/ .*/ * | sort -k1.2 | awk "{printf \"%s, \", \$0} END {print \"\"}"
+ls -pd .[^.]*/ .*/ * | sort -k1.2 | awk "{printf \"%s, \", \$0} END {print \"\"}"
