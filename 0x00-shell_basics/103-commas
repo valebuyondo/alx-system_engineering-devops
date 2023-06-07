@@ -1,2 +1,1 @@
-#!/bin/bash
-ls -pd .[^.]*/ .*/ * | sort -k1.2 | awk "{printf \"%s, \", \$0} END {print \"\"}"
+(ls -pd .[^.]*/ .*/ * | grep -v "^\.") | (ls -d .[^.]*/ .*/ * 2>/dev/null | sort -d -k1.2) | (echo "./, ../," && tr '\n' ', ' && echo '')
