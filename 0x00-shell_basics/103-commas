@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -pd .[^.]*/ .*/ * | grep -v "^\\.") | (ls -d .[^.]*/ .*/ * 2>/dev/null | sort -d -k1.2)
+printf "./, ../, "; (ls -pd .[^.]*/ .*/ * | grep -v "^\\.") | (ls -d .[^.]*/ .*/ * 2>/dev/null | sort -d -k1.2) | tr "\\n" ", "; echo ""
