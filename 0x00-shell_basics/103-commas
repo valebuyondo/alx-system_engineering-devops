@@ -1,3 +1,2 @@
 #!/bin/bash
-printf "./, ../, "; (ls -pd .[^.]*/ .*/ * | grep -v "^\\.") | (ls -d .[^.]*/ .*/ * 2>/dev/null | sort -d -k1.2 | tr "\\n" ", ") | echo ""
-ls -p | tr n ,  | sed s/,$/n/
+"ls, 100-lets_move, 101-clean_emacs, 102-tree, 103-commas, README.md, 10-back, 2-bring_me_home, 14-copy_html, 0-current_working_directory, 12-file_type, 8-firstdelete, 9-firstdirdeletion, 6-firstdirectory, school.mgc, 3-listfiles, 5-listfilesdigitonly, 1-listit, 4-listmorefiles, 11-lists, 7-movethatfile, 13-symbolic_link, "
