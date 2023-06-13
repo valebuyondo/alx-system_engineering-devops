@@ -1,3 +1,2 @@
 #!/bin/bash
 ls -lt | awk 'NR > 1 {print prev} {prev = $9}' | head -n 10
-
