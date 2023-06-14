@@ -1,0 +1,2 @@
+#!/bin/bash
+find . \( -empty -o -name '.*' \) -type f -o -type d
