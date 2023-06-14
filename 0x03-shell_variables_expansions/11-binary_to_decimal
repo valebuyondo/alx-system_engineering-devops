@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=2 obase=10" | bc <<< "$BINARY"
+echo $(printf "%d" "$((2#$BINARY))")
