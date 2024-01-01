@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Connects to my ALX server.
-ssh -i ~/.ssh/authorized_keys ubuntu@54.197.206.4
+ssh -i /alx-system_engineering-devops/0x0B-ssh/school ubuntu@18.209.224.173
 
