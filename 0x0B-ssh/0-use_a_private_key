@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Connects to my ALX server.
-ssh -i /alx-system_engineering-devops/0x0B-ssh/school ubuntu@18.209.224.173
+ssh -i ~/.ssh/school ubuntu@18.209.224.173
 
