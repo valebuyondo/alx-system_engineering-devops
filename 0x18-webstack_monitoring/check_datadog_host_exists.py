@@ -4,10 +4,10 @@ import requests
 DATADOG_API_URL = "https://api.datadoghq.com/api/v1/"
 
 # Your DataDog API key
-DATADOG_API_KEY = "6966241e46c058cc65a1168dc2f3e66e"
+DATADOG_API_KEY = "04f178090000fa3a355d3d925ad673ca"
 
 # Your DataDog application key
-DATADOG_APP_KEY = "ee6ea7fd92edfccb4cc74f953ebf53e0e5b6d4a4"
+DATADOG_APP_KEY = "925d87a468140f04ff21539639823d90102d216e"
 
 # Hostname to check
 HOSTNAME = "422436-web-01"
